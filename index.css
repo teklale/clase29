@@ -1,0 +1,36 @@
+*{
+    margin: 0; /*para que ocupe de todo el exteriro*/
+    padding: 0; /*padding es para desde el el exteror*/
+    box-sizing: border-box;/*para que no se desborde*/
+}
+
+.title{
+    width: 100%; /*para que ocupe todo el ancho*/
+    display: flex;/* para que se alieneen en linea*/
+    justify-content: center; /* para que se alineen en linea */
+    align-items: center;/* para que se alineen en linea */
+    padding: 40px;
+    background: black; /*color de fonfo */
+    color: white; /*color de letra */
+
+}
+
+.ccontenedorGrid{
+    display: grid; /*para que se alineen en linea */
+    grid-template-columns: repeat(3, 1fr);/*para que se alineen en linea */
+    grid-gap: 10px;/* para que se alineen en las lineas */
+    padding: 20px;
+
+    background: black;
+    color: white;
+}
+
+.itemGrid{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+ 
